@@ -1,0 +1,152 @@
+.clear-day {
+  background-color: #87ceeb;
+  color: #1a1a2e;
+}
+.clear-night {
+  background-color: #1a1a2e;
+  color: #f5f5f5;
+}
+.cloudy {
+  background-color: #9e9e9e;
+  color: #1a1a2e;
+}
+.fog {
+  background-color: #b0bec5;
+  color: #1a1a2e;
+}
+.hail {
+  background-color: #78909c;
+  color: #f5f5f5;
+}
+.partly-cloudy-day {
+  background-color: #90caf9;
+  color: #1a1a2e;
+}
+.partly-cloudy-night {
+  background-color: #283593;
+  color: #f5f5f5;
+}
+.rain-snow-showers-day {
+  background-color: #80cbc4;
+  color: #1a1a2e;
+}
+.rain-snow-showers-night {
+  background-color: #37474f;
+  color: #f5f5f5;
+}
+.rain-snow {
+  background-color: #80deea;
+  color: #1a1a2e;
+}
+.rain {
+  background-color: #546e7a;
+  color: #f5f5f5;
+}
+.showers-day {
+  background-color: #64b5f6;
+  color: #1a1a2e;
+}
+.showers-night {
+  background-color: #1565c0;
+  color: #f5f5f5;
+}
+.sleet {
+  background-color: #80cbc4;
+  color: #1a1a2e;
+}
+.snow-showers-day {
+  background-color: #e3f2fd;
+  color: #1a1a2e;
+}
+.snow-showers-night {
+  background-color: #37474f;
+  color: #f5f5f5;
+}
+.snow {
+  background-color: #eceff1;
+  color: #1a1a2e;
+}
+.thunder-rain {
+  background-color: #4a148c;
+  color: #f5f5f5;
+}
+.thunder-showers-day {
+  background-color: #6a1b9a;
+  color: #f5f5f5;
+}
+.thunder-showers-night {
+  background-color: #311b92;
+  color: #f5f5f5;
+}
+.thunder {
+  background-color: #4527a0;
+  color: #f5f5f5;
+}
+.wind {
+  background-color: #b2ebf2;
+  color: #1a1a2e;
+}
+
+.submitBtn,
+.container {
+  margin-top: 10px;
+}
+
+.container {
+  width: 90%;
+  height: auto;
+  padding: 20px;
+  border-style: dashed;
+  border-radius: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 90%;
+  height: auto;
+}
+
+.iconTemp {
+  display: flex;
+}
+
+.mainTemp {
+  font-size: 84px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.hidden {
+  display: none;
+}
+
+.dayDescription {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.moreDetails {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.error {
+  color: red;
+  font-weight: 700;
+}
+
+.loading {
+  font-weight: 700;
+}
+
+.form {
+  font-size: 50px;
+}
